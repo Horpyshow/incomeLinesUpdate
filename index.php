@@ -136,6 +136,7 @@ $other_staff = $processor->getOtherStaffList();
                         <?php
                         $income_lines = [
                             'general' => 'General',
+                            'annual_performance' => 'Annual Performance',
                             'car_park' => 'Car Park Tickets',
                             'car_loading' => 'Car Loading Tickets',
                             'hawkers' => 'Hawkers Tickets',
@@ -151,8 +152,12 @@ $other_staff = $processor->getOtherStaffList();
                         ];
                         
                         foreach ($income_lines as $key => $label) {
-                            $active = $income_line === $key ? 'bg-blue-50 text-blue-700 border-blue-200' : 'text-gray-700 hover:bg-gray-50';
-                            echo "<a href='?income_line={$key}' class='block px-3 py-2 rounded-md text-sm font-medium border {$active}'>{$label}</a>";
+                            if ($key === 'annual_performance') {
+                                echo "<a href='annual_budget_performance.php' class='block px-3 py-2 rounded-md text-sm font-medium border text-indigo-700 hover:bg-indigo-50 border-indigo-200'><i class='fas fa-chart-line mr-2'></i>{$label}</a>";
+                            } else {
+                                $active = $income_line === $key ? 'bg-blue-50 text-blue-700 border-blue-200' : 'text-gray-700 hover:bg-gray-50';
+                                echo "<a href='?income_line={$key}' class='block px-3 py-2 rounded-md text-sm font-medium border {$active}'>{$label}</a>";
+                            }
                         }
                         ?>
                     </nav>

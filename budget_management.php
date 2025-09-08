@@ -387,6 +387,12 @@ $performance_data = $manager->getBudgetPerformance($selected_year);
         <div class="mt-8 bg-white rounded-lg shadow-md p-6">
             <h3 class="text-lg font-semibold text-gray-900 mb-4">Budget Management Tools</h3>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <a href="annual_budget_performance.php?year=<?php echo $selected_year; ?>" 
+                   class="flex items-center justify-center px-4 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors">
+                    <i class="fas fa-calendar-alt mr-2"></i>
+                    Annual Performance
+                </a>
+                
                 <a href="officer_target_management.php" 
                    class="flex items-center justify-center px-4 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
                     <i class="fas fa-bullseye mr-2"></i>

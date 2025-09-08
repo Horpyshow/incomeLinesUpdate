@@ -273,5 +273,52 @@ class BudgetManager {
             return ['success' => false, 'message' => 'Error updating budget performance: ' . $e->getMessage()];
         }
     }
+    
+    /**
+     * Get annual budget performance summary
+     */
+    public function getAnnualBudgetSummary($year) {
+        $monthly_summary = [];
+        
+        for ($month = 1; $month <= 12; $month++) {
+            $month_field = strtolower(date('F', mktime(0, 0, 0, $month, 1))) . '_budget';
+            
+            // Get monthly budget
+            $this->db->query("
+                SELECT SUM({$month_field}) as monthly_budget
+                FROM budget_lines 
+                WHERE budget_year = :year 
+                AND status = 'Active'
+            ");
+            $this->db->bind(':year', $year);
+            $budget_result = $this->db->single();
+            
+            // Get actual achieved
+            $this->db->query("
+                SELECT COALESCE(SUM(amount_paid), 0) as achieved
+                FROM account_general_transaction_new 
+                WHERE MONTH(date_of_payment) = :month 
+                AND YEAR(date_of_payment) = :year
+                AND (approval_status = 'Approved' OR approval_status = '')
+            ");
+            $this->db->bind(':month', $month);
+            $this->db->bind(':year', $year);
+            $achieved_result = $this->db->single();
+            
+            $monthly_budget = $budget_result['monthly_budget'] ?? 0;
+            $achieved = $achieved_result['achieved'] ?? 0;
+            
+            $monthly_summary[] = [
+                'month' => $month,
+                'month_name' => date('F', mktime(0, 0, 0, $month, 1)),
+                'monthly_budget' => $monthly_budget,
+                'achieved' => $achieved,
+                'variance' => $achieved - $monthly_budget,
+                'percentage' => $monthly_budget > 0 ? ($achieved / $monthly_budget) * 100 : 0
+            ];
+        }
+        
+        return $monthly_summary;
+    }
 }
 ?>
