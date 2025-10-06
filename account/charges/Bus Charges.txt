@@ -1,0 +1,80 @@
+UPDATE `tickets` SET end_time='', payment_time='', extra_time_charges='', total_payment='', timer_status='Started';
+
+
+
+Ticket - 300
+
+#1
+Cargo Truck (Loading) - 5000
+
+#2
+OK Truck (Offloading) - 15000
+
+
+#3
+Cargo Truck 1 (Offloading) - 10000
+Cargo Truck 2 (Offloading) - 15000
+
+
+#4
+20 feet container - (Loading) - 10000
+20 feet container - (Offloading) - 10000
+
+
+#5
+40 feet container - (Offloading) 20000
+40 feet container - (Apple Offloading) - 20000
+40 feet container - (Ok, Curtain Offloading) - 20000
+40 feet container - (Abassa Offloading - Weekend) - N30000
+40 feet container - (Shoe Offloading - Weekend) - N40000
+40 feet container - (Apple Offloading - Sunday) - N40000
+
+
+#6
+LT Buses (Offloading) - 3000
+LT Buses (Offloading - Sunday) - N5000
+LT Buses (Loading) - 3000
+LT Buses Army Staff (Loading) - 1000
+LT Buses Army Staff (Loading) - 2000
+
+
+#7
+Sienna Buses (Loading) - 1000
+Car Sticker - 30000
+
+
+
+#8
+Overnight Parking
+40 feet - 3000
+OK Trucks - 1500
+LT Buses - 1000
+Sienna - 500
+Cars - 500
+
+
+
+
+Cargo Truck (Loading) - N5000
+Cargo Truck 1 (Offloading) - N10000
+Cargo Truck 2 (Offloading) - N15000
+OK Truck (Offloading) - N15000
+20 feet container - (Loading) - N10000
+20 feet container - (Offloading) - N10000
+40 feet container - (Offloading) N20000
+40 feet container - (Abassa Offloading - Weekend) - N30000
+40 feet container - (Shoe Offloading - Weekend) - N40000
+40 feet container - (Apple Offloading) - N20000
+40 feet container - (Apple Offloading - Sunday) - N40000
+40 feet container - (Ok, Curtain Offloading) - N20000
+LT Buses (Offloading) - N3000
+LT Buses (Offloading - Sunday) - N5000
+LT Buses (Loading) - N3000
+LT Buses Army Staff (Loading) - N1000
+LT Buses Army Staff (Loading) - N2000
+Sienna Buses (Loading) - N1000
+Overnight Parking - 40 feet - N3000
+Overnight Parking - OK Trucks - N1500
+Overnight Parking - LT Buses - N1000
+Overnight Parking - Sienna - N500
+Overnight Parking - Cars - N500

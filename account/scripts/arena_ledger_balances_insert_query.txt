@@ -1,0 +1,93 @@
+INSERT INTO `woobserp`.`arena_account_ledger_petty_cash` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0001', '1000', '', '', '31/12/2016', '', '', '', 'Balance B/F', '78330.00', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_cash_on_hand` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0002', '1010', '', '', '31/12/2016', '', '', '', 'Balance B/F', '1301000.00', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_head_office_woobs_resources` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0003', '1020', '', '', '31/12/2016', '', '', '', 'Balance B/F', '2922999.70', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_fidelity_2` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0004', '1060', '', '', '31/12/2016', '', '', '', 'Balance B/F', '3909885.12', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_accounts_receivable` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0005', '1100', '', '', '31/12/2016', '', '', '', 'Balance B/F', '3621400.00', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_cash_advance` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0006', '11300', '', '', '31/12/2016', '', '', '', 'Balance B/F', '243600.00', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_property_equipment` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0007', '1500', '', '', '31/12/2016', '', '', '', 'Balance B/F', '5311985.00', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_accum_pe` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0008', '1900', '', '', '31/12/2016', '', '', '', 'Balance B/F', '', '379050.00', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_payee_deductions` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0010', '2450', '', '', '31/12/2016', '', '', '', 'Balance B/F', '3353801.46', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_pension_deductions` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0011', '2460', '', '', '31/12/2016', '', '', '', 'Balance B/F', '6757060.00', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_retained_earnings` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0012', '3910', '', '', '31/12/2016', '', '', '', 'Balance B/F', '11248027.24', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_service_charge` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0013', '4000', '', '', '31/12/2016', '', '', '', 'Balance B/F', '', '232964870.00', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_other_income` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0014', '4300', '', '', '31/12/2016', '', '', '', 'Balance B/F', '', '9946100.00', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_local_transportation` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0015', '6000', '', '', '31/12/2016', '', '', '', 'Balance B/F', '848100.00', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_travelling_expenses` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0016', '6020', '', '', '31/12/2016', '', '', '', 'Balance B/F', '1750249.17', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_auto_expenses` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0017', '6100', '', '', '31/12/2016', '', '', '', 'Balance B/F', '7633640.00', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_bank_charges` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0018', '6245', '', '', '31/12/2016', '', '', '', 'Balance B/F', '18600.00', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_toilet_evacuation_expenses` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0019', '6250', '', '', '31/12/2016', '', '', '', 'Balance B/F', '671000.00', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_cleaning_expenses` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0020', '6300', '', '', '31/12/2016', '', '', '', 'Balance B/F', '352400.00', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_repairs_maintenance_expenses` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0021', '6350', '', '', '31/12/2016', '', '', '', 'Balance B/F', '550000.00', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_refuse_disposal` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0022', '6400', '', '', '31/12/2016', '', '', '', 'Balance B/F', '8138300.00', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_office_supplies_expenses` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0023', '6450', '', '', '31/12/2016', '', '', '', 'Balance B/F', '5088200.85', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_desilting_of_manholes` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0024', '6455', '', '', '31/12/2016', '', '', '', 'Balance B/F', '350000.00', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_internet_subscription` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0025', '6500', '', '', '31/12/2016', '', '', '', 'Balance B/F', '2173866.00', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_entertainment_expenses` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0026', '6600', '', '', '31/12/2016', '', '', '', 'Balance B/F', '935200.00', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_legal_and_accounting_expense` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0027', '6650', '', '', '31/12/2016', '', '', '', 'Balance B/F', '1860000.00', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_medical_and_welfare` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0028', '6700', '', '', '31/12/2016', '', '', '', 'Balance B/F', '1396445.32', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_donations` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0029', '6755', '', '', '31/12/2016', '', '', '', 'Balance B/F', '1320000.00', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_newspaper_periodical` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0030', '6800', '', '', '31/12/2016', '', '', '', 'Balance B/F', '85350.00', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_generators_servicing_maint` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0031', '6900', '', '', '31/12/2016', '', '', '', 'Balance B/F', '3009057.23', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_insurance_expense` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0032', '6950', '', '', '31/12/2016', '', '', '', 'Balance B/F', '400000.00', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_repair_maintenance_works` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0033', '7000', '', '', '31/12/2016', '', '', '', 'Balance B/F', '24806623.00', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_diesel_md_residence` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0034', '7100', '', '', '31/12/2016', '', '', '', 'Balance B/F', '1345000.00', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_diesel_arena` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0035', '7200', '', '', '31/12/2016', '', '', '', 'Balance B/F', '20704720.00', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_electrical_repairs_maint` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0036', '7400', '', '', '31/12/2016', '', '', '', 'Balance B/F', '3449048.00', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_power_holding_coy_nig_plc` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0037', '7500', '', '', '31/12/2016', '', '', '', 'Balance B/F', '17810328.48', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_ration_cash_allowance` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0038', '7600', '', '', '31/12/2016', '', '', '', 'Balance B/F', '3093004.00', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_fire_services_expenses` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0039', '7800', '', '', '31/12/2016', '', '', '', 'Balance B/F', '219100.00', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_fire_truck_repairs_maint` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0040', '8000', '', '', '31/12/2016', '', '', '', 'Balance B/F', '43400.00', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_refuse_truck_repairs_maint` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0041', '8100', '', '', '31/12/2016', '', '', '', 'Balance B/F', '27300.00', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_salaries_expense` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0042', '8200', '', '', '31/12/2016', '', '', '', 'Balance B/F', '82150319.43', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_telephone_expense` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0043', '8300', '', '', '31/12/2016', '', '', '', 'Balance B/F', '1917100.00', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_stationaries` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0044', '8400', '', '', '31/12/2016', '', '', '', 'Balance B/F', '442780.00', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_printing_expenses` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0045', '8450', '', '', '31/12/2016', '', '', '', 'Balance B/F', '535500.00', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_postage_frieght` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0046', '8600', '', '', '31/12/2016', '', '', '', 'Balance B/F', '16800.00', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_security_expenses` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0047', '9000', '', '', '31/12/2016', '', '', '', 'Balance B/F', '2685900.00', '', '', 'Approved');
+
+INSERT INTO `woobserp`.`arena_account_ledger_security_services` (`id`, `acct_id`, `shop_id`, `shop_no`, `date`, `ref_cheque_no`, `journal_no`, `receipt_no`, `trans_desc`, `debit_amount`, `credit_amount`, `balance`, `approval_status`) VALUES ('0048', '9500', '', '', '31/12/2016', '', '', '', 'Balance B/F', '8714600.00', '', '', 'Approved');
